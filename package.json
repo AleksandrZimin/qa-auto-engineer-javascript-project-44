@@ -1,6 +1,6 @@
 {
-  "name": "qa-auto-engineer-javascript-project-44",
-  "version": "1.0.1",
+  "name": "@hexlet/code",
+  "version": "2.0",
   "description": "[![Actions Status](https://github.com/AleksandrZimin/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AleksandrZimin/qa-auto-engineer-javascript-project-44/actions)",
   "main": "index.js",
   "bin": {
