@@ -2,7 +2,7 @@ import runGame from '../index.js'
 
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 
-const isPrime = num => {
+const isPrime = (num) => {
   if (num < 2) {
     return false
   }

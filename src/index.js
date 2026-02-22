@@ -15,7 +15,7 @@ const runGame = (gameDescription, generateRound) => {
 
     if (userAnswer !== correctAnswer) {
       console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`,
       )
       console.log(`Let's try again, ${name}!`)
       return
