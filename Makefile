@@ -10,12 +10,6 @@ deps-install:
 deps-update:
 	npx ncu -u
 
-test:
-	npm test
-
-test-coverage:
-	npm test -- --coverage
-
 lint:
 	npx eslint .
 
@@ -28,4 +22,6 @@ publish:
 brain-games:
 	node bin/brain-games.js
 	
+brain-even:
+	node bin/brain-even.js
 .PHONY: test
