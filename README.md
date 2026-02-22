@@ -1,6 +1,6 @@
-## Игры
+# Игры
 
-### brain-even
+## Brain-even
 Игра "Проверка на чётность". Нужно ответить `yes`, если число чётное, и `no` — если нечётное.
 
 ### Установка
@@ -17,6 +17,24 @@ npm install (лучше npm ci)
 
 ```bash
 brain-even
+```
+## Brain-calc
+Игра "Калькулятор". Нужно вычислить результат математического выражения.
+
+### Установка
+
+Склонируйте репозиторий и установите зависимости:
+
+```bash
+git clone https://github.com/AleksandrZimin/qa-auto-engineer-javascript-project-44.git
+cd qa-auto-engineer-javascript-project-44
+npm install (лучше npm ci)
+```
+
+### Использование
+
+```bash
+brain-calc
 ```
 
 
