@@ -1,0 +1,22 @@
+{
+  "name": "qa-auto-engineer-javascript-project-44",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/AleksandrZimin/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AleksandrZimin/qa-auto-engineer-javascript-project-44/actions)",
+  "main": "index.js",
+  "bin": {
+    "qa-auto-engineer-javascript-project-44": "bin/brain-games.js",
+    "brain-games": "bin/brain-games.js"
+  },
+  "simple-git-hooks": {
+    "pre-push": "npx lint-staged"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksandr.Zimin",
+  "license": "ISC",
+  "type": "module"
+}
