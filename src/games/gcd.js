@@ -1,9 +1,7 @@
-// src/games/gcd.js
 import runGame from '../index.js';
 
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-// Алгоритм Евклида для нахождения НОД
 const gcd = (a, b) => {
   let x = Math.abs(a);
   let y = Math.abs(b);
