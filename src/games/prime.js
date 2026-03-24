@@ -1,13 +1,14 @@
 import runGame from '../index.js'
-
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
+import { getRandomNumber } from '../utils/getRandomNumber.js'
 
 const isPrime = (num) => {
   if (num < 2) {
     return false
   }
 
-  for (let i = 2; i <= Math.sqrt(num); i += 1) {
+  const sqrt = Math.sqrt(num)
+
+  for (let i = 2; i <= sqrt; i += 1) {
     if (num % i === 0) {
       return false
     }

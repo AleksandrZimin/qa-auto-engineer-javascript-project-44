@@ -1,6 +1,5 @@
 import runGame from '../index.js'
-
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
+import { getRandomNumber } from '../utils/getRandomNumber.js'
 
 const gcd = (a, b) => {
   let x = Math.abs(a)
