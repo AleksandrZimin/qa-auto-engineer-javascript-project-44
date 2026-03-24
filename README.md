@@ -37,7 +37,7 @@ brain-calc
 ### Использование
 
 ```bash
-brain-gcd
+brain-calculateGcd
 ```
 
 ## Арифметическая прогрессия
